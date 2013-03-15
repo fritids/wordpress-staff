@@ -1,0 +1,207 @@
+@charset "utf-8";
+.more-link a {
+	float: right;
+	clear: both;
+	text-transform: lowercase;
+	font-size: 11px;
+	text-decoration: none;
+	color: #666666;
+	margin: 0px;
+	text-align: right;
+	background-image: url(../images/small_arrow_side_light_gray.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+}
+.more-quick-links a {
+	color: #FFFFFF;
+	font-size: 11px;
+	text-transform: lowercase;
+	text-decoration: none;
+	display: block;
+	clear: both;
+	float: right;
+	background-image: url(../images/small_arrow_side_white.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: right;
+	width: 90px;
+}
+#top-menu * {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+#top-menu a {
+	display: block;
+	float: left;
+	line-height: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	background-image: url(../images/small_corner.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+}
+#top-menu ul {
+	float: right;
+	background-image: url(../images/top_nav_background.gif);
+}
+#feature-text * {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+#feature-text li a {
+	display: block;
+	font-size: 16px;
+	color: #FFFFFF;
+	height: 33px;
+	padding-left: 40px;
+	line-height: 33px;
+	text-decoration: none;
+	font-weight: normal;
+	/*background-image: url(../images/snowflake.png);*/
+	background-image: url(../images/traffic_cone.png);
+	background-repeat: no-repeat;
+	background-position: 3px center;
+	border: 1px none #006699;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+#feature-text li a.open {
+	background-image: none;
+	padding-left: 20px;
+	height: 35px;
+	line-height: 35px;
+	vertical-align:middle;
+}
+#feature-text li+li a {
+	background-image: url(../images/icon_question.png);
+
+}
+#feature-text li+li+li a {
+	background-image: url(../images/icon_calendar.png);
+
+}
+
+#feature-text a:hover {
+	color: #333333;
+	background-color: #FCA503;
+	border-top-color: #CA8400;
+	border-right-color: #CA8400;
+	border-bottom-color: #CA8400;
+	border-left-color: #CA8400;
+}
+#header h1 {
+	background-image: url(../images/wrdsb_logo.png);
+	background-repeat: no-repeat;
+	background-position: 0px 8px;
+	display: block;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	height: 90px;
+	letter-spacing: -1px;
+	width: 240px;
+	line-height: 21px;
+	font-size: 20px;
+	overflow: hidden;
+	text-decoration: none;
+}
+#header h1 a {
+	color: #005DAA;
+	text-decoration: none;
+	display: block;
+	width: 160px;
+	padding-left: 80px;
+	padding-top: 44px;
+	padding-bottom: 25px;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 18px;
+}
+#top-menu a:hover {
+	color: #333333;
+	background-color: #FCA503;
+}
+#search ul, #search li {
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#search a {
+	color: #999999;
+	text-decoration: none;
+	font-size: 11px;
+	padding-right: 20px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	padding-left: 20px;
+}
+#search a:hover {
+	text-decoration: underline;
+}
+
+#search form input {
+	float: left;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border: inherit;
+	color: #666666;
+}
+html>body #search form input {
+	border: 1px solid #ece9d8 !important;
+}
+#header input#edit-submit {
+	font-size: 9px;
+	text-transform: uppercase;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 10px;
+	background-color: #FFFFFF;
+	color: #999999;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+
+#search form label {
+	display: none;
+}
+#header input#edit-search-block-form-1,#header input.edit-search-block-form-1  {
+	width: 150px;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+#header h1 a:hover {
+	text-decoration: underline;
+}
+.feed-icon {
+	display: none;
+}

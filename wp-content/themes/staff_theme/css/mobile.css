@@ -1,0 +1,240 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	width: 100%;
+}
+#header {
+	background-color: #006699;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 5px;
+	letter-spacing: -1px;
+}
+#top-wrapper {
+	background-color: #E0E0E0;
+}
+#search * {
+	display: inline;
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+#top-menu * {
+	display: inline;
+}
+#top-menu {
+	background-color: #C7C7C7;
+	padding: 5px;
+}
+#top-menu a {
+	color: #333333;
+	font-size: 12px;
+	padding-right: 7px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#side-menu {
+	padding: 2px;
+}
+
+.content {
+	font-size: 14px;
+}
+.content a {
+	color: #006699;
+}
+.feed-icon {
+	display: none;
+}
+#content-block {
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #666666;
+	font-size: 20px;
+	letter-spacing: -1px;
+}
+#left-block h2, #right-block h2 {
+	background-color: #E0E0E0;
+	padding: 2px;
+}
+
+#feature, #feature-wide {
+	display: none;
+}
+.content span {
+
+}
+#left-block span, #right-block span {
+	display: none;
+}
+#footer {
+	color: #FFFFFF;
+	background-color: #006699;
+	clear: both;
+	padding: 2px;
+}
+#footer h2, #footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.even {
+	background-color: #E9EFEF;
+}
+.odd, .even {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.newsletter, .rss, .twitter {
+	background-repeat: no-repeat;
+	width: 100px;
+	float: left;
+	height: 60px;
+	background-position: center top;
+}
+.newsletter {
+	background-image: url(../images/icon_pdf.gif);
+
+}
+.rss {
+	background-image: url(../images/icon_rss.gif);
+}
+.twitter {
+	background-image: url(../images/icon_twitter.gif);
+}
+#google_translate_element {
+	display: none;
+}
+.events li {
+	list-style-type: square;
+	color: #666666;
+	display: list-item;
+	list-style-position: inside;
+	margin-left: 5px;
+}
+.more-link {
+	float: right;
+	display: block;
+	clear: both;
+	line-height: 10px;
+	font-size: 10px;
+	text-transform: uppercase;
+	width: 100%;
+	margin: 5px;
+}
+
+
+.newsletter h3, .rss h3, .twitter h3 {
+	padding-top: 50px;
+	line-height: 0px;
+	text-align: center;
+	color: #666666;
+}
+.newsletter p, .rss p, .twitter p {
+	display: none;
+}
+
+h2 a {
+	color: #006699;
+	font-size: 20px;
+	text-decoration: none;
+}
+#content-wrapper {
+	padding: 5px;
+}
+.meta {
+	display: none;
+}
+
+#search {
+	padding: 5px;
+}
+
+#search label {
+	display: none;
+}
+#search a {
+	text-transform: capitalize;
+	color: #666666;
+	text-decoration: none;
+	padding-right: 10px;
+}
+#header a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+p {
+	margin-bottom: 15px;
+}
+img {
+width: 240px;
+height: auto;
+}
+
+table img {
+display: none;
+}
+#content-block a {
+	color: #006699;
+}
+.view-feature-news {
+	background-color: #FFFFCC;
+}

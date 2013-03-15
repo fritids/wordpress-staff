@@ -1,0 +1,67 @@
+table#school-finder-table {
+	width: 100% !important;
+	border: 10px solid #ECE9D8 !important;
+}
+ul.school-finder {
+margin: 5px;
+margin-bottom: 0px;
+border-bottom: none;
+}
+ul.school-finder li a {
+background-color: #D2D2D2;
+text-decoration: none;
+line-height: 1.25%;
+}
+ul.school-finder li a.viewsdisplaytabs-active {
+background-color: #FFFFFF;
+border-bottom: 1px solid #FFFFFF;
+}
+table#school-finder-table thead th {
+border-bottom: 3px solid #ECE9D8  !important;
+}
+table#school-finder-table thead th a {
+padding-left: 0px  !important;
+color: #005DAB;
+text-decoration: none;
+}
+table#school-finder-table tr.even td {
+background-color: #FFFFFF;
+border-bottom: none !important;
+padding:4px !important;
+}
+table#school-finder-table tr.odd td {
+background-color: #F5F8FA;
+border-bottom: none !important;
+padding:3px !important;
+}
+table#school-finder-table tr.even td.active {
+background-color: #EBF0F5;
+}
+table#school-finder-table tr.odd td.active {
+background-color: #E2E9F1;
+}
+table#school-finder-table th.active img {
+padding-left: 0.6em;
+}
+th.views-field-field-school-organization-value, th.views-field-field-school-phone-value, th.views-field-field-school-website-value, th.views-field-title {
+	font-size: 14px;
+}
+.views-field-field-school-organization-value, .views-field-field-school-phone-value {
+	font-size: 11px;
+}
+.views-field-title {
+	font-weight: bold;
+
+}
+.faceted-search-env-school_finder h2 {
+	font-size: 19px;
+}
+.faceted-search-env-school_finder .meta {
+	display: none;
+}
+.faceted-search-env-school_finder .feedapi_feed {
+	display: none;
+}
+#block-menu_block-2 img {
+	margin-left: -5px;
+}

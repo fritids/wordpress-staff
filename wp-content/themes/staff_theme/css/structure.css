@@ -1,0 +1,224 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/wrdsb_blue_background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #537FE0;
+}
+#wrapper {
+	width: 958px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 1px solid #999999;
+	background-color: #FFFFFF;
+}
+#header {
+	height: 90px;
+	width: 270px;
+	float: left;
+}
+#search {
+	float: right;
+	/*width: 625px;*/
+	width: 515px;
+	height: 60px;
+	line-height: 60px;
+}
+
+
+#top-menu {
+	height: 30px;
+	width: 650px;
+	padding-right: 20px;
+	float: right;
+}
+#top-wrapper {
+	height: 90px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #006699;
+}
+
+
+
+#feature {
+	height: 250px;
+	width: 100%;
+
+}
+#feature-text {
+	float: right;
+	width: 239px;
+	height: 170px;
+	background-color: #006699;
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 20px !important;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	background-image: url(../images/quick_links_background.jpg);
+}
+
+#feature-image {
+	width: 617px;
+	background-color: #000000;
+	height: 208px;
+	float: left;
+	background-position: center center;
+	border: 1px solid #666666;
+	margin: 20px !important;
+	margin-left: 10px;
+}
+#feature-image-wide {
+	width: 958px;
+	background-color: #FFFFFF;
+	height: 208px;
+	float: left;
+	background-position: center center;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+#content-wrapper {
+	width: 659px;
+	float: left;
+	margin-bottom: 20px;
+}
+#left-block, #right-block {
+	float: left;
+	width: 278px;
+	margin-bottom: 20px;
+	margin-left: 20px !important;
+	margin-left: 10px;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+}
+#right-block {
+	margin-left: 20px;
+}
+
+#left-block, #right-block {
+	background-color: #F9F9F9;
+	border-top-color: #ECE9D8;
+	border-right-color: #ECE9D8;
+	border-bottom-color: #ECE9D8;
+	border-left-color: #ECE9D8;
+	background-image: url(../images/soft_fade.jpg);
+	background-repeat: repeat-x;
+}
+
+#footer {
+	background-color: #666666;
+	width: 958px;
+	clear: both;
+	padding-top: 20px;
+	background-image: url(../images/footer_background.jpg);
+	-moz-border-radius: 0px 0px 7px 7px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+#footer-address {
+	float: right;
+	width: 239px;
+	background-color: #666666;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 10px solid #252525;
+	padding: 10px;
+	background-image: url(../images/footer_background.jpg);
+}
+#footer-clear {
+	width: 960px;
+	clear: both;
+}
+
+#footer-columns {
+	float: left;
+	width: 659px;
+}
+
+#footer-column-left, #footer-column-centre, #footer-column-right {
+	float: left;
+	width: 178px;
+	margin-left: 28px !important;
+	margin-left: 14px;
+	color: #CCCCCC;
+}
+#footer-column-centre, #footer-column-right {
+	float: left;
+	width: 178px;
+	margin-left: 10px;
+	padding-left: 18px !important;
+	padding-left: 9px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #323232;
+}
+
+#side-menu {
+	float: right;
+	width: 239px;
+	margin-bottom: 20px;
+	margin-right: 20px !important;
+	margin-right: 10px;
+	border: 10px solid #ECE9D8;
+	padding: 10px;
+	background-color: #F9F9F9;
+}
+
+
+
+#side-menu iframe {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#content-block {
+	margin-left: 20px;
+	width: 620px;
+	clear: both;
+	background-color: #FFFFFF;
+	color: #666666;
+	line-height: 16px;
+	font-size: 12px;
+}
+#search form {
+	display: inline;
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	width: 235px;
+}
+.clear {
+	display: block;
+	clear: both;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+}
+#page-feature {
+	margin-bottom: 15px;
+}
+#page-oyap {
+	background-image: url(../images/gears.jpg);
+	height: 50px;
+	width: 958px;
+	clear: both;
+	/*margin-bottom: 20px;*/
+}
+#admin-menu {
+	position: absolute;
+	top: 0px;
+}

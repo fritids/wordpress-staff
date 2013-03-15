@@ -1,0 +1,33 @@
+@charset "utf-8";
+.search-results {
+
+}
+.search-results dd {
+	margin: 0px;
+	padding: 0px;
+}
+.search-results .search-info {
+	color: #999999;
+	font-style: italic;
+}
+
+.search-results ol, .search-results li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.search-results .title a {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	text-transform: capitalize;
+}
+.search-results li p {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+.search-results .search-snippet {
+}

@@ -1,0 +1,124 @@
+
+<html> 
+
+<script type="text/javascript" src="jquery/jquery.js"></script>
+
+<script type="text/javascript" src="jquery/page.js"></script>
+
+<head> 
+
+<title>Welcome!</title> 
+
+
+
+<script type='text/javascript'> 
+
+$(document).ready(function(){ 
+
+$("#search_results").slideUp(); 
+
+    $("#search_button").click(function(e){ 
+
+        e.preventDefault(); 
+
+        ajax_search(); 
+
+    }); 
+
+    $("#search_term").keyup(function(e){ 
+
+        e.preventDefault(); 
+
+        ajax_search(); 
+
+    }); 
+
+
+
+}); 
+
+function ajax_search(){ 
+
+  $("#search_results").show(); 
+
+  var search_val=$("#search_term").val(); 
+
+  $.post("./find.php", {search_term : search_val}, function(data){
+
+   if (data.length>0){ 
+
+     $("#search_results").html(data); 
+
+   } 
+
+  }) 
+
+  
+
+} 
+
+test();
+
+</script> 
+
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+
+$("#search_results").click(function() 
+
+	{ 
+
+	var hmm=$("#search_results").val();
+
+	$("div#id_results").html('/wp-content/themes/staff_theme/dir/index.php');;   
+
+	});
+
+
+
+});
+
+</script>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head> 
+
+
+
+<body>
+
+
+
+
+
+    <h2>Please enter the user name or location.</h2>
+
+    <form id="searchform" method="post"><div>
+
+    <label for="search_term"></label>
+
+    <input type="text" name="search_term" id="search_term" /> 
+
+    </form> 
+
+	<div id="search_results">
+
+    </div> 
+
+<iframe src ="" width="100%"  name="id_results" id="id_results" scrolling="no" frameborder="0">
+
+<p>Your browser does not support iframes.</p>
+
+</iframe>
+
+
+
+</body> 
+
+</html> 
+
+

@@ -1,0 +1,144 @@
+#l-buttons {
+	width: 270px;
+	float: left;
+}
+#r-buttons {
+	width: 270px;
+	float: right;
+}
+.front-button strong a {
+	color: #00496C !important;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	text-decoration: none;
+	line-height: 38px;
+	font-weight: normal;
+}
+.front-button li a {
+	letter-spacing: 0px !important;
+	color: #668099;
+}
+
+#arcs {
+	background-image: url(../images/acc.png);
+}
+#boundry {
+	background-image: url(../images/boundry.png);
+}
+#bells {
+	background-image: url(../images/bell.png);
+}
+#beforeafter {
+	background-image: url(../images/kids.png);
+}
+#openhouse {
+	background-image: url(../images/open_house.png);
+	background-position: 0px 5px;
+}
+#fireg {
+	background-image: url(../images/fireg.png);
+	background-position: 5px 5px;
+}
+
+#check {
+	background-image: url(../images/checkmark.png);
+	background-position: 5px 5px;
+}
+
+.front-button {
+	padding-left: 43px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-bottom: 4px;
+	border: 1px solid #ECE9D8;
+	background-position: 5px 5px;
+	letter-spacing: -1px;
+	margin-bottom: 10px;
+}
+.front-button a:hover {
+	text-decoration: underline;
+}
+#boardmeeting {
+	background-image: url(../images/meeting.png);
+}
+#delegation {
+	background-image: url(../images/delegation.png);
+}
+
+.front-button ol {
+	padding: 0px;
+	margin-top: -5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	list-style-type: square;
+}
+#feature-buttons {
+	float: left;
+	text-align: left;
+	display: block;
+	background-color: #ECE9D8;
+	width: 619px;
+	height: 195px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-top: 15px;
+}
+#feature-buttons a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #00496C;
+	font-size: 32px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	line-height: 26px;
+}
+#feature-buttons a:hover {
+	background-color: #F90 !important;
+	text-decoration: underline;
+}
+#feature-buttons a em {
+	font-size: 18px;
+	font-style: normal;
+	letter-spacing: 0px;
+}
+
+#feature-ba a, #feature-bell a, #feature-kindy a, #feature-ib a, #feature-mentalhealth a {
+	display: block;
+	background-color: #FFF;
+	margin-right: 15px;
+	margin-left: 15px;
+	height: 68px;
+	padding-top: 15px;
+	padding-left: 120px;
+	background-repeat: no-repeat;
+		font-size: 28px;
+}
+#feature-kindy a {
+padding-left: 20px;	
+}
+
+#openhouse a, #fireg a, #check a {
+	line-height: 24px !important;
+}
+#feature-bell a {
+	margin-top: 15px;
+	background-image: url(../images/french_reg_small_banner.jpg);
+}
+#feature-kindy a {
+	margin-top: 15px;
+	background-image: url(../images/kindyreg_small_banner.jpg);
+}
+#feature-ib a {
+	margin-top: 15px;
+	background-image: url(../images/ib_small_banner.jpg);
+	padding-left: 20px;	
+}
+#feature-mentalhealth a  {
+	margin-top: 15px;
+	background-image: url(../images/small_new_school.jpg);
+	padding-left: 20px;	
+}
+
+#feature-ba a {
+	background-image: url(../images/before_after_small_banner.jpg);
+}

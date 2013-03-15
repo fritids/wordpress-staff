@@ -1,0 +1,60 @@
+@charset "utf-8";
+.speedlinks a {
+	color: #069;
+	font-size: 12px;
+	line-height: 22px;
+	padding-left: 15px;
+}
+#left-block {
+	font-size: 12px;
+}
+
+#left-block h2 {
+	background-image: url(images/icon_email.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 35px;
+}
+#right-block h2 {
+	background-image: url(images/icon_right_arrow.png);
+	background-repeat: no-repeat;
+	line-height: 30px;
+	height: 30px;
+	text-indent: 35px;
+}
+#feature-text li a {
+	background-image: url(images/icon_feature_people.png) !important;
+}
+#feature-text li+li+li a {
+	background-image: url(images/icon_folder.png)!important;
+}
+#feature-text li+li a {
+	background-image: url(images/icon_vendor_product.png)!important;
+}
+#left-block em {
+	font-style: normal;
+	color: #00496C;
+	font-weight: bold;
+}
+#left-block strong {
+	font-size: 16px;
+}
+#left-block strong em {
+	font-size: 12px;
+}
+#attachments * {
+	background-color: #FFF !important;
+	border: 0px none #FFF !important;
+}
+#attachments td, #attachments tr {
+	background-color: #FFF !important;
+	border: 0px none #FFF !important;
+	padding-top: 3px !important;
+	padding-bottom: 3px !important;
+}
+#wrapper #side-menu #block-menu_block-1 #block-menu-menu-purchasing .content .menu .expanded.active-trail a {
+	color: #069;
+	text-decoration: none;
+}
+
